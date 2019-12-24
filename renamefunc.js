@@ -42,8 +42,8 @@
             for (var i = 0; i < actualArgs.length; i++) {
                 var arg = actualArgs[i] = trim(actualArgs[i]);
                 if (!validVar(arg)) throw SyntaxError("invalid argument name");
-                for (var i = 0; i < i; i++) {
-                    if (arg == actualArgs[i]) throw SyntaxError("duplicate argument name");
+                for (var j = 0; i < j; j++) {
+                    if (arg == actualArgs[j]) throw SyntaxError("duplicate argument name");
                 }
                 if (/^_/.test(arg)) {
                     canCollide = true;
