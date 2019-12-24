@@ -42,7 +42,7 @@
             for (var i = 0; i < actualArgs.length; i++) {
                 var arg = actualArgs[i] = trim(actualArgs[i]);
                 if (!validVar(arg)) throw SyntaxError("invalid argument name");
-                for (var j = 0; i < j; j++) {
+                for (var j = 0; j < i; j++) {
                     if (arg == actualArgs[j]) throw SyntaxError("duplicate argument name");
                 }
                 if (/^_/.test(arg)) {
