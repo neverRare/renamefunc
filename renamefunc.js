@@ -47,7 +47,7 @@
                 }
                 if (/^_/.test(arg)) {
                     canCollide = true;
-                    var currentMax = + /\d*$/.exec(arg)[0];
+                    var currentMax = parseInt(/\d*$/.exec(arg)[0], 10);
                     if (maxSuffix < currentMax) maxSuffix = currentMax;
                 }
             }
