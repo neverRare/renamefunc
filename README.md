@@ -1,5 +1,7 @@
 # renameFunc
 
+**Warning:** unmaintained, don't use this, why would you.
+
 A futuristic utility library that allows you to dynamically shallow copy functions and give it different name and arguments. It works for all kinds of functions such as regular functions, arrow functions, classes, async functions, etc.
 
 Here are some examples. It's old JavaScript.
